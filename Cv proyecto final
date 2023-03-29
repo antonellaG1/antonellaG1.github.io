@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+</head>    
+<body>
+    <h1 style="font-size:60px;">Antonella Galiano</h1>
+    <h2>Digital marketing specialist</h2>
+    <p>Tengo de experiencia en Marketing Digital y sector comercial. Analista de campañas Paid Media de Google y Facebook Ads, configuro eventos de conversión/ Pixel, Tag Manager y Analytics, Data Studio y como herramientas de análisis. Edito los aspectos básicos de diseño de una página web utilizando la herramienta Wordpress, como así también optimización de SEO.</p>
+    <ul>
+      <class="values_list horizontal_center" id="values_list">
+      <li>data-title="Hi, My name is" data-value="Antonella Galiano" data-label="name" class="       "</li>
+      <li>data-title="Mi mail" data-value="antonellagaldib@gmail.com" data-label="email" data-caps="false" class="             "</li>
+      <li>data-title="Mi dirección" data-value="av. San Martín" data-label="location" class="       "</li>
+      <li>data-title="Mi LinkedIn" data-value="https://www.linkedin.com/in/antonella-galiano-0ab949142" data-label="LinkedIn" data-caps="false" class="       active"</li>
+      <li>data-title="Mi nombre" data-value="Antonella Galiano" data-label="name" class="   "</li>
+      </ul>
+      
+      <button onclick="document.getElementById("Mi nombre").innerHTML = Date(name)">Mi nombre</button>
+    </script>
+</body>
