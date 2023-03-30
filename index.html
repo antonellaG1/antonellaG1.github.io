@@ -1,20 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-</head>    
-<body>
-    <h1 style="font-size:60px;">Antonella Galiano</h1>
-    <h2>Digital marketing specialist</h2>
-    <p>Tengo de experiencia en Marketing Digital y sector comercial. Analista de campañas Paid Media de Google y Facebook Ads, configuro eventos de conversión/ Pixel, Tag Manager y Analytics, Data Studio y como herramientas de análisis. Edito los aspectos básicos de diseño de una página web utilizando la herramienta Wordpress, como así también optimización de SEO.</p>
-    <ul>
-      <class="values_list horizontal_center" id="values_list">
-      <li>data-title="Hi, My name is" data-value="Antonella Galiano" data-label="name" class="       "</li>
-      <li>data-title="Mi mail" data-value="antonellagaldib@gmail.com" data-label="email" data-caps="false" class="             "</li>
-      <li>data-title="Mi dirección" data-value="av. San Martín" data-label="location" class="       "</li>
-      <li>data-title="Mi LinkedIn" data-value="https://www.linkedin.com/in/antonella-galiano-0ab949142" data-label="LinkedIn" data-caps="false" class="       active"</li>
-      <li>data-title="Mi nombre" data-value="Antonella Galiano" data-label="name" class="   "</li>
-      </ul>
+  <head> 
+    <script src="https://kit.fontawesome.com/d53cace160.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+      background-color: rgba(190, 227, 197, 0.676);
+      padding: 20px;
+      text-align: center;
+    }
+    
+      .left-column {
+        float: center;
+        width: 35%;
+        height: 100%;
+        text-align: center;
+        
+      }
+  
+      .right-column {
+        float: right;
+        width: 65%;
+      }
+      h1 {
+        text-align: center;
+      }
+  
+      h3 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+      }      
+      p {
+        text-align: center;
+        
+      }
+    </style>
+    <style>    
+    .card {
+      box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+      transition: 0.3s; 
+      height:fit-content;
+      align-items: center;
+      text-align:center;
+      height: fit-content;
+      transform: translateY(+3%);
+      margin: auto;
+                
+    }
+    </style>
+    <style>
+      .user_photo{
+        border-radius: 50%;
+        max-width: 50%;
+        height: 50%;        
+        float: center;
+        align-self:baseline;
+        margin-bottom: 1rem
+        
+               
+      }
+    </style>
+       
+       function redireccionar(){
+			    window.location.href = "https://www.linkedin.com/in/antonella-galiano-0ab949142";
+		   }
+
       
-      <button onclick="document.getElementById("Mi nombre").innerHTML = Date(name)">Mi nombre</button>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato>
+    <style>
+    body{
+  font-family: "Lato", sans-serif;
+     }
+    p {
+			text-align: left;
+		       }
+      li {
+    margin-right: 50px
+    }
+
+    
+  </style> 
+  </head>    
+  <body> 
+    <header><h1><em></em><i>Antonella Galiano</i><em></em></h1></header> 
+    <div class="row">
+    <div class="left-column">         
+        <div class="card" style="height: 100%;">        
+         <img id="user_photo" alt="" class="user_photo" src="https://randomuser.me/api/portraits/women/26.jpg" style="display: block; margin: 0 auto;height: auto;">   
+         <div class="card-body"></div>
+        <ul>
+         <li><i data-title="Mis datos" data-value="" class="fa-regular fa-user" id="user"><span style="font-family: 'Lato', sans-serif;">Mis datos</span></i>
+         <li><i data-title="Mi mail" data-value="antonellagaldib@gmail.com" class="fa-regular fa-envelope" id="sobre"><span style="font-family: 'Lato', sans-serif;">antonella@gmail.com</span></i>
+         <li><i data-title="Mi dirección" data-value="av. San Martín" class="fa-regular fa-compass" id="ubi"><span style="font-family: 'Lato', sans-serif;">Mendoza, Argentina</span></i>
+          
+        </ul> 
+         
+        <button onclick="redireccionar()"style="width: 50%; margin: 0 auto;">Contacto</button>      
+
+        </div> 
+        </div>       
+        </ul>  
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       
+           
+    <div class="right-column">
+      
+       <h3>Digital marketing specialist</h2>
+       <p>Experiencia en Marketing Digital y programación. Edito los aspectos básicos de diseño de una página web utilizando la herramienta Wordpress como así también optimización de SEO.</p>
+       <h4>Experiencia: Empresa ABC - Período: 2020</h4>
+       <p>Marketing: Planificar y ejecutar estrategias de marketing digital para aumentar la presencia en línea de la empresa y generar leads.Crear y administrar campañas publicitarias en plataformas digitales (Google AdWords, Facebook Ads, etc.).</p>
+       <h4>Habilidades</h4>
+       <ul class="habilidades"; text-align:right;>
+           <li>&nabla; Desarrollo web</li>
+           <li>&nabla; Diseño</li>
+           <li>&nabla; Analista SEM</li>
+       </ul>
+    </div>
+  </div>
+    
     </script>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </body>
+</html>
